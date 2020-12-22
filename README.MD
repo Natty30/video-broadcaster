@@ -29,4 +29,6 @@ Go to ./backend and create database :
 
 sudo mysql -u root < db.sql
 
+Then, edit ./backend/env/config.php and fill in the correct identifiers for access to the database.
+
 Now, go to http://localhost/Youtube-Multistream-Interface/
