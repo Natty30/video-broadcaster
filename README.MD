@@ -14,7 +14,7 @@ File configuration must be edited with the following :
 - In /etc/php/7.2/fpm/php.ini file, change :
 
     - post_max_size from 25M to 0M
-    - upload_max_file_size from 2M to 512M
+    - upload_max_filesize from 2M to 512M
 
 - In /etc/nginx/nginx.conf, add :
 
