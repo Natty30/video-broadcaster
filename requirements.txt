@@ -1,11 +1,11 @@
-in php.ini file, change :
+in /etc/php/7.2/fpm/php.ini file, change :
 
 - post_max_size from 25M to 0M
 - upload_max_file_size from 2M to 512M
 
 then, sudo systemctl restart php7.2-fpm
 
-in nginx.conf, add :
+in /etc/nginx/nginx.conf, add :
 
 - client_max_body_size 512M;
 
